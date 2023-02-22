@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% load main_tags %}
+
+{% block header %}
+{% include 'inc/_header.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="" style="padding: 10px">
+    {% get_about as about %}
+    {% if story_vision == 'story' %}
+        {{ about.contentStory|safe }}
+    {% elif  story_vision == 'vision' %}
+        {{ about.contentVision|safe }}
+    {% endif %}
+</div>
+{% endblock %}
+

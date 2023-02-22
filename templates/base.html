@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+{% load main_tags %}
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}HAIR-BEAUTY :: Everything about hair beauty{% endblock %}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="{% static 'main/img/favicon.ico' %}" rel="icon">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'main/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'main/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css' %}" rel="stylesheet"/>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'main/css/style.min.css' %}" rel="stylesheet">
+    <link href="{% static 'main/css/mystyle.css' %}" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    {% get_nav_bar %}
+
+    {% block header %}
+        <!-- Carousel -->
+        {% include 'inc/_carousel.html' %}
+    {% endblock %}
+
+    {% block content %}
+        CONTENT
+    {% endblock %}
+
+    {% block footer %}
+        <!-- Footer -->
+        {% include 'inc/_footer.html' %}
+    {% endblock %}
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'main/lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'main/lib/waypoints/waypoints.min.js' %}"></script>
+    <script src="{% static 'main/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'main/lib/tempusdominus/js/moment.min.js' %}"></script>
+    <script src="{% static 'main/lib/tempusdominus/js/moment-timezone.min.js' %}"></script>
+    <script src="{% static 'main/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js' %}"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="{% static 'main/mail/jqBootstrapValidation.min.js' %}"></script>
+    <script src="{% static 'main/mail/contact.js' %}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{% static 'main/js/main.js' %}"></script>
+
+</body>
+
+</html>

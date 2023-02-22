@@ -1,0 +1,9 @@
+{% if messages %}
+<div class="messages" style="margin-top: 20px; text-align: center; width: 100%;">
+    {% for message in messages %}
+    {% if target in message.extra_tags %}
+    <p {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</p>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

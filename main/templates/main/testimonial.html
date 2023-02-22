@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block header %}
+{% include 'inc/_header.html' %}
+{% endblock %}
+
+{% block content %}
+{% include 'inc/_testimonial.html' %}
+
+<div>
+    <a href="{% url 'testimonial_create' %}" class="btn btn-primary btn-block font-weight-bold py-3">Добавить свой отзыв</a>
+</div>
+{% endblock %}
+

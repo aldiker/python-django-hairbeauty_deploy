@@ -1,0 +1,39 @@
+{% load static %}
+{% load main_tags %}
+{% get_menu as menu %}
+
+<!-- Menu Start -->
+<div class="container-fluid pt-5">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">РАБОТЫ & ЦЕНЫ</h4>
+            <h1 class="display-4">Конкурентное ценообразование</h1>
+        </div>
+        <div class="row">
+            {% for menu_type, menu_items in menu.items %}
+            {% if menu_items %}
+            <div class="col-lg-6">
+                <h1 class="mb-5">{{ menu_type }}</h1>
+                {% for item in menu_items %}
+                <div class="row align-items-center mb-5">
+                    <div class="col-4 col-sm-3">
+                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="{{ item.photo.url }}" alt="">
+                        {% if item.price < 99 %}
+                        <h5 class="menu-price">{{ item.currency.short_name }}{{ item.price|floatformat:0 }}</h5>
+                        {% else %}
+                        <h5 class="menu-price_UAH">{{ item.currency.short_name }}{{ item.price|floatformat:0 }}</h5>
+                        {% endif %}
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>{{ item.name }}</h4>
+                        <p class="m-0">{{ item.info|truncatechars:150 }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- Menu End -->

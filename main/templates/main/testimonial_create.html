@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block header %}
+{% include 'inc/_header.html' %}
+{% endblock %}
+
+{% block content %}
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div style="margin: 20px;">
+
+        {{ form.as_p }}
+
+        <button type="submit"
+                class="btn btn-primary btn-block font-weight-bold py-3">
+            Добавить отзыв
+        </button>
+    </div>
+</form>
+{% endblock %}
+

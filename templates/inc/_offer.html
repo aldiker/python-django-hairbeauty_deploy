@@ -1,0 +1,44 @@
+{% load static %}
+{% load main_tags %}
+{% get_offer as offer %}
+
+<!-- Offer Start -->
+{% if offer %}
+<div id="offer" class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
+    <div class="container py-5">
+        <h1 class="display-3 text-primary mt-3">{{ offer.sizeOFF }}</h1>
+        <h1 class="text-white mb-3">{{ offer.title }}</h1>
+        <h4 class="text-white font-weight-normal mb-4 pb-3">{{ offer.content }}</h4>
+
+
+        <form class="form-inline justify-content-center mb-4" action="" method="POST">
+            {% csrf_token %}
+
+            <div>{{ offerbooking_form.errors }}</div>
+
+            <div class="input-group">
+                {{ offerbooking_form.offer.as_hidden }}
+
+                {{ offerbooking_form.phone }}
+                {{ offerbooking_form.BookingInfo }}
+
+                <div class="input-group-append">
+                    <input type="submit"
+                           class="btn btn-primary font-weight-bold px-4"
+                           name="offerbooking_form_submit"
+                           value="Sign Up"
+                    />
+                    {% comment %}
+                    <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
+                    {% endcomment %}
+                </div>
+
+                {% include 'inc/_messages.html' with target="_offerbooking" %}
+
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endif %}
+<!-- Offer End -->

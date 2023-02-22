@@ -1,0 +1,13 @@
+{% load static %}
+{% load main_tags %}
+{% get_nav as nav %}
+
+<!-- Index Start -->
+{% if nav %}
+    {% for nav_item in nav %}
+        {% if nav_item.page and nav_item.enable %}
+            {% include nav_item.page %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+<!-- Index End -->

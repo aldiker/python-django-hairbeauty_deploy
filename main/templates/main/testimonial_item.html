@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block header %}
+{% include 'inc/_header.html' %}
+{% endblock %}
+
+{% block content %}
+
+<div class="d-flex align-items-center mb-3">
+    {% if item.photo %}
+    <img class="img-fluid"
+         src="{{ item.photo.url }}"
+         alt="Photo"
+         style="width: 100px; margin: 10px;">
+    {% else %}
+    <img class="img-fluid"
+         src="{% static 'main/img/default_face.png' %}"
+         alt="Photo"
+         style="width: 100px; margin: 10px;">
+    {% endif %}
+    <div class="ml-3">
+        <h4>{{ item.name }}</h4>
+        <i>{{ item.profession }}</i>
+    </div>
+</div>
+<div style="margin: 10px;">
+{{ item.comment|linebreaks|truncatewords:50 }}
+</div>
+<p style=" margin: 10px;
+           font-size: 0.7rem;
+           color: #ababab;">
+    {{ item.created_at|date:"d.M.Y" }}
+</p>
+
+{% endblock %}
+

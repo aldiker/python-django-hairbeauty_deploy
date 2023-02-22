@@ -1,0 +1,34 @@
+{% load static %}
+
+<!-- Testimonial Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
+            <h1 class="display-4">Our Clients Say</h1>
+        </div>
+        {% if testimonial_items %}
+        <div class="owl-carousel testimonial-carousel">
+            {% for item in testimonial_items %}
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    {% if item.photo %}
+                    <img class="img-fluid" src="{{ item.photo.url }}" alt="">
+                    {% else %}
+                    <img class="img-fluid" src="{% static 'main/img/default_face.png' %}" alt="">
+                    {% endif %}
+                    <div class="ml-3">
+                        <h4><a href="{{ item.get_absolute_url }}">{{ item.name }}</a></h4>
+                        <i>{{ item.profession }}</i>
+                    </div>
+                </div>
+                <p class="m-0">{{ item.comment|linebreaks|truncatewords:50 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div><h4 style="text-align: center">NO MESSAGES</h4></div>
+        {% endif %}
+    </div>
+</div>
+<!-- Testimonial End -->

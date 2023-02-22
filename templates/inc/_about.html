@@ -1,0 +1,52 @@
+{% load static %}
+{% load main_tags %}
+{% get_about as about %}
+
+<!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
+            <h1 class="display-4">{{ about.header }}</h1>
+        </div>
+
+        <div class="row">
+            {% if about.contentStoryEnable %}
+            {% if about.contentVisionEnable %}
+            <div class="col-lg-4 py-0 py-lg-5">
+                {% else %}
+                <div class="">
+                    {% endif %}
+                    <h1 class="mb-3">Our Story</h1>
+                    <p>{{ about.contentStory|safe|truncatewords:50 }}</p>
+                    <a href="{% url 'about_lean_more' 'story' %}"
+                       class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+                {% endif %}
+
+                {% if about.contentStoryEnable and about.contentVisionEnable %}
+                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="{{ about.headerImg.url }}"
+                             style="object-fit: cover;">
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if about.contentVisionEnable %}
+                {% if about.contentStoryEnable %}
+                <div class="col-lg-4 py-0 py-lg-5">
+                    {% else %}
+                    <div class="">
+                        {% endif %}
+                        <h1 class="mb-3">Our Vision</h1>
+                        <p>{{ about.contentVision|safe|truncatewords:50 }}</p>
+                        <a href="{% url 'about_lean_more' 'vision' %}"
+                           class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    </div>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+        <!-- About End -->
