@@ -6,7 +6,7 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="section-title">
-            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Про нас</h4>
             <h1 class="display-4">{{ about.header }}</h1>
         </div>
 
@@ -17,10 +17,10 @@
                 {% else %}
                 <div class="">
                     {% endif %}
-                    <h1 class="mb-3">Our Story</h1>
+                    <h1 class="mb-3">Моя історія</h1>
                     <p>{{ about.contentStory|safe|truncatewords:50 }}</p>
                     <a href="{% url 'about_lean_more' 'story' %}"
-                       class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                       class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Читати далі</a>
                 </div>
                 {% endif %}
 
@@ -39,10 +39,10 @@
                     {% else %}
                     <div class="">
                         {% endif %}
-                        <h1 class="mb-3">Our Vision</h1>
+                        <h1 class="mb-3">Моє бачення</h1>
                         <p>{{ about.contentVision|safe|truncatewords:50 }}</p>
                         <a href="{% url 'about_lean_more' 'vision' %}"
-                           class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                           class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Читати далі</a>
                     </div>
                     {% endif %}
                 </div>

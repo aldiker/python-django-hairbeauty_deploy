@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.utils.text import slugify
 
 
 class NavBar(models.Model):
@@ -212,6 +213,28 @@ class Reservation(models.Model):
         ordering = ['-created_at']
 
 
+def transliterate(name):
+
+    slovar = {'а':'a','б':'b','в':'v','г':'g','д':'d','е':'e','ё':'e',
+       'ж':'zh','з':'z','и':'i','й':'i','к':'k','л':'l','м':'m','н':'n',
+       'о':'o','п':'p','р':'r','с':'s','т':'t','у':'u','ф':'f','х':'h',
+       'ц':'c','ч':'cz','ш':'sh','щ':'scz','ъ':'','ы':'y','ь':'','э':'e',
+       'ю':'u','я':'ja', 'А':'A','Б':'B','В':'V','Г':'G','Д':'D','Е':'E','Ё':'E',
+       'Ж':'ZH','З':'Z','И':'I','Й':'I','К':'K','Л':'L','М':'M','Н':'N',
+       'О':'O','П':'P','Р':'R','С':'S','Т':'T','У':'U','Ф':'F','Х':'H',
+       'Ц':'C','Ч':'CZ','Ш':'SH','Щ':'SCH','Ъ':'','Ы':'y','Ь':'','Э':'E',
+       'Ю':'U','Я':'YA',',':'','?':'',' ':'-','~':'','!':'','@':'','#':'',
+       '$':'','%':'','^':'','&':'','*':'','(':'',')':'','-':'-','=':'','+':'',
+       ':':'',';':'','<':'','>':'','\'':'','"':'','\\':'','/':'','№':'',
+       '[':'',']':'','{':'','}':'','ґ':'','ї':'', 'є':'','Ґ':'g','Ї':'i',
+       'Є':'e', '—':'-'}
+         
+    # Циклически заменяем все буквы в строке
+    for key in slovar:
+       name = name.replace(key, slovar[key])
+    return name
+
+
 class Testimonial(models.Model):
     name = models.CharField(max_length=50, verbose_name="Имя клиента")
     slug = models.SlugField(max_length=255, unique=True, db_index=True, verbose_name='Slug')
@@ -226,6 +249,11 @@ class Testimonial(models.Model):
 
     def get_absolute_url(self):
         return reverse('testimonial_item', kwargs={'slug': self.slug})
+
+    def save(self, *args, **kwargs):  # new
+        if not self.slug:
+            self.slug = slugify(transliterate(self.name + ' ' + self.profession))
+        return super().save(*args, **kwargs)
 
     class Meta:
         verbose_name = "Отзыв"

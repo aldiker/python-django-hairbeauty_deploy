@@ -1,0 +1,405 @@
+[Tue Feb 28 12:52:00.118582 2023] [mpm_event:notice] [pid 179715:tid 140551987660672] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 12:52:00.118605 2023] [core:notice] [pid 179715:tid 140551987660672] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 12:52:36.178237 2023] [mpm_event:notice] [pid 179715:tid 140551987660672] AH00491: caught SIGTERM, shutting down
+[Tue Feb 28 12:53:45.819747 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 12:53:45.819763 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 13:05:27.192182 2023] [authz_core:error] [pid 179775:tid 140098369373760] [client 46.211.98.241:16190] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:27.214436 2023] [authz_core:error] [pid 179754:tid 140098370438720] [client 46.211.98.241:16157] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:27.282052 2023] [authz_core:error] [pid 179775:tid 140098370438720] [client 46.211.98.241:16190] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:27.292467 2023] [authz_core:error] [pid 179754:tid 140098370172480] [client 46.211.98.241:16154] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:27.302408 2023] [authz_core:error] [pid 179754:tid 140098369906240] [client 46.211.98.241:16170] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:27.333861 2023] [authz_core:error] [pid 179775:tid 140098370704960] [client 46.211.98.241:16191] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:47.942194 2023] [authz_core:error] [pid 179775:tid 140098369906240] [client 46.211.98.241:16158] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:48.042005 2023] [authz_core:error] [pid 179775:tid 140098369640000] [client 46.211.98.241:16158] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:48.072248 2023] [authz_core:error] [pid 179754:tid 140098370438720] [client 46.211.98.241:16168] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:48.084194 2023] [authz_core:error] [pid 179754:tid 140098370172480] [client 46.211.98.241:16193] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:48.102398 2023] [authz_core:error] [pid 179775:tid 140098369373760] [client 46.211.98.241:16204] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:48.124021 2023] [authz_core:error] [pid 179754:tid 140098369906240] [client 46.211.98.241:16191] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:51.123752 2023] [authz_core:error] [pid 179775:tid 140098371769920] [client 46.211.98.241:16197] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:51.192294 2023] [authz_core:error] [pid 179754:tid 140098371769920] [client 46.211.98.241:16208] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:51.234032 2023] [authz_core:error] [pid 179754:tid 140098370438720] [client 46.211.98.241:16209] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:51.243146 2023] [authz_core:error] [pid 179775:tid 140098370172480] [client 46.211.98.241:16198] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:51.252102 2023] [authz_core:error] [pid 179775:tid 140098369906240] [client 46.211.98.241:16174] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:05:51.274037 2023] [authz_core:error] [pid 179775:tid 140098369640000] [client 46.211.98.241:16197] AH01630: client denied by server configuration: /staticfiles, referer: http://18.192.104.74:8000/admin/login/?next=/admin/
+[Tue Feb 28 13:09:44.127393 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 13:09:44.242684 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 13:09:44.242701 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 13:17:05.741978 2023] [wsgi:error] [pid 179874:tid 140098280289856] [remote 46.211.98.241:16201] _get_newsletters_form - POST!!!
+[Tue Feb 28 13:17:05.744700 2023] [wsgi:error] [pid 179874:tid 140098280289856] [remote 46.211.98.241:16201] _get_newsletters_form - VALID!!!
+[Tue Feb 28 13:17:40.039981 2023] [wsgi:error] [pid 179874:tid 140098313860672] [remote 46.211.98.241:16168] _get_reservation_form - POST!!!
+[Tue Feb 28 13:17:40.046998 2023] [wsgi:error] [pid 179874:tid 140098313860672] [remote 46.211.98.241:16168] _get_reservation_form - NOT VALID !!!
+[Tue Feb 28 13:17:40.049352 2023] [wsgi:error] [pid 179874:tid 140098313860672] [remote 46.211.98.241:16168] <ul class="errorlist"><li>date<ul class="errorlist"><li>Enter a valid date.</li></ul></li></ul>
+[Tue Feb 28 13:17:58.076455 2023] [wsgi:error] [pid 179874:tid 140098280289856] [remote 46.211.98.241:16162] _get_reservation_form - POST!!!
+[Tue Feb 28 13:17:58.077829 2023] [wsgi:error] [pid 179874:tid 140098280289856] [remote 46.211.98.241:16162] _get_reservation_form - NOT VALID !!!
+[Tue Feb 28 13:17:58.078228 2023] [wsgi:error] [pid 179874:tid 140098280289856] [remote 46.211.98.241:16162] <ul class="errorlist"><li>date<ul class="errorlist"><li>Enter a valid date.</li></ul></li></ul>
+[Tue Feb 28 13:19:52.155461 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 13:19:52.270464 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 13:19:52.270480 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 13:20:28.481101 2023] [wsgi:error] [pid 179997:tid 140098313860672] [remote 46.211.98.241:16154] _get_reservation_form - POST!!!
+[Tue Feb 28 13:20:28.487402 2023] [wsgi:error] [pid 179997:tid 140098313860672] [remote 46.211.98.241:16154] _get_reservation_form - VALID!!!
+[Tue Feb 28 13:20:28.487438 2023] [wsgi:error] [pid 179997:tid 140098313860672] [remote 46.211.98.241:16154] {'name': 'Oleksandr Polivanov', 'phone': '+380675713080', 'email': 'aldiker@ukr.net', 'date': datetime.date(2022, 2, 24), 'time': datetime.time(5, 0), 'comment': '\xd0\x9f\xd1\x83\xd1\x82\xd1\x96\xd0\xbd - \xd0\xb3\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xbe\xd0\xbd!', 'number_of_reservation': 0}
+[Tue Feb 28 13:20:28.495270 2023] [wsgi:error] [pid 179997:tid 140098313860672] [remote 46.211.98.241:16154] {'max_number': None}
+[Tue Feb 28 13:29:58.071668 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 13:29:58.186789 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 13:29:58.186806 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 13:47:01.862941 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 13:47:01.978036 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 13:47:01.978053 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 13:50:30.872857 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 13:50:30.988126 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 13:50:30.988143 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 14:05:52.102807 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 14:05:52.217870 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 14:05:52.217893 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 14:12:45.112715 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 14:12:45.228057 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 14:12:45.228074 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 14:15:21.343055 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 14:15:21.458283 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 14:15:21.458300 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 14:16:29.031852 2023] [wsgi:error] [pid 180554:tid 140098280154688] [remote 46.211.98.241:16168] \xd0\x94\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb5 \xd1\x84\xd0\xbe\xd1\x80\xd0\xbc\xd1\x8b \xd0\xb2\xd0\xb5\xd1\x80\xd0\xbd\xd1\x8b - form.is_valid!!!!
+[Tue Feb 28 14:16:29.161975 2023] [wsgi:error] [pid 180554:tid 140098280154688] [remote 46.211.98.241:16168] \xd0\x9f\xd0\xb8\xd1\x81\xd1\x8c\xd0\xbc\xd0\xbe \xd1\x83\xd1\x81\xd0\xbf\xd0\xb5\xd1\x88\xd0\xbd\xd0\xbe \xd0\xbe\xd1\x82\xd0\xbf\xd1\x80\xd0\xb0\xd0\xb2\xd0\xbb\xd0\xb5\xd0\xbd\xd0\xbe
+[Tue Feb 28 14:23:39.532722 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 14:23:39.648041 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 14:23:39.648058 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 14:35:55.073026 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 14:35:55.188348 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 14:35:55.188370 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 14:37:46.552756 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 14:37:46.668261 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 14:37:46.668278 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 18:06:09.473583 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793] Internal Server Error: /main/testimonial_create
+[Tue Feb 28 18:06:09.473623 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793] Traceback (most recent call last):
+[Tue Feb 28 18:06:09.473628 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Feb 28 18:06:09.473632 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     response = get_response(request)
+[Tue Feb 28 18:06:09.473646 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Feb 28 18:06:09.473651 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Feb 28 18:06:09.473655 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+[Tue Feb 28 18:06:09.473659 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return self.dispatch(request, *args, **kwargs)
+[Tue Feb 28 18:06:09.473663 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+[Tue Feb 28 18:06:09.473667 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return handler(request, *args, **kwargs)
+[Tue Feb 28 18:06:09.473671 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+[Tue Feb 28 18:06:09.473675 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return super().post(request, *args, **kwargs)
+[Tue Feb 28 18:06:09.473679 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+[Tue Feb 28 18:06:09.473683 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return self.form_valid(form)
+[Tue Feb 28 18:06:09.473687 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 136, in form_valid
+[Tue Feb 28 18:06:09.473691 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return super().form_valid(form)
+[Tue Feb 28 18:06:09.473695 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+[Tue Feb 28 18:06:09.473699 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return HttpResponseRedirect(self.get_success_url())
+[Tue Feb 28 18:06:09.473703 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 125, in get_success_url
+[Tue Feb 28 18:06:09.473707 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     url = self.object.get_absolute_url()
+[Tue Feb 28 18:06:09.473711 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/hairbeauty/main/models.py", line 228, in get_absolute_url
+[Tue Feb 28 18:06:09.473715 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return reverse('testimonial_item', kwargs={'slug': self.slug})
+[Tue Feb 28 18:06:09.473719 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+[Tue Feb 28 18:06:09.473723 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+[Tue Feb 28 18:06:09.473727 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+[Tue Feb 28 18:06:09.473735 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793]     raise NoReverseMatch(msg)
+[Tue Feb 28 18:06:09.473739 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:6793] django.urls.exceptions.NoReverseMatch: Reverse for 'testimonial_item' with keyword arguments '{'slug': ''}' not found. 1 pattern(s) tried: ['main/testimonial_item/(?P<slug>[-a-zA-Z0-9_]+)\\\\Z']
+[Tue Feb 28 18:06:10.158261 2023] [wsgi:error] [pid 180824:tid 140098313725504] [remote 95.158.43.13:51038] Not Found: /favicon.ico
+[Tue Feb 28 18:17:02.384982 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546] Internal Server Error: /
+[Tue Feb 28 18:17:02.385017 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546] Traceback (most recent call last):
+[Tue Feb 28 18:17:02.385022 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Feb 28 18:17:02.385027 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     response = get_response(request)
+[Tue Feb 28 18:17:02.385031 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Feb 28 18:17:02.385035 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Feb 28 18:17:02.385039 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/hairbeauty/main/views.py", line 131, in index
+[Tue Feb 28 18:17:02.385044 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return render(request, 'main/index.html', context)
+[Tue Feb 28 18:17:02.385048 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+[Tue Feb 28 18:17:02.385052 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     content = loader.render_to_string(template_name, context, request, using=using)
+[Tue Feb 28 18:17:02.385056 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+[Tue Feb 28 18:17:02.385060 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return template.render(context, request)
+[Tue Feb 28 18:17:02.385064 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+[Tue Feb 28 18:17:02.385068 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.template.render(context)
+[Tue Feb 28 18:17:02.385072 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+[Tue Feb 28 18:17:02.385076 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self._render(context)
+[Tue Feb 28 18:17:02.385080 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+[Tue Feb 28 18:17:02.385084 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.nodelist.render(context)
+[Tue Feb 28 18:17:02.385088 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385101 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385105 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385109 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385114 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385118 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385121 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+[Tue Feb 28 18:17:02.385126 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return compiled_parent._render(context)
+[Tue Feb 28 18:17:02.385129 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+[Tue Feb 28 18:17:02.385133 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.nodelist.render(context)
+[Tue Feb 28 18:17:02.385137 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385141 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385145 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385149 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385154 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385158 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385161 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+[Tue Feb 28 18:17:02.385166 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     result = block.nodelist.render(context)
+[Tue Feb 28 18:17:02.385169 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385173 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385178 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385184 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385188 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385192 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385196 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 208, in render
+[Tue Feb 28 18:17:02.385200 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return template.render(context)
+[Tue Feb 28 18:17:02.385204 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 177, in render
+[Tue Feb 28 18:17:02.385208 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self._render(context)
+[Tue Feb 28 18:17:02.385212 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+[Tue Feb 28 18:17:02.385216 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.nodelist.render(context)
+[Tue Feb 28 18:17:02.385220 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385224 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385228 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385232 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385236 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385240 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385244 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+[Tue Feb 28 18:17:02.385248 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return nodelist.render(context)
+[Tue Feb 28 18:17:02.385252 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385256 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385260 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385264 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385271 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385275 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385279 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+[Tue Feb 28 18:17:02.385283 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     nodelist.append(node.render_annotated(context))
+[Tue Feb 28 18:17:02.385287 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385291 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385294 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+[Tue Feb 28 18:17:02.385298 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return nodelist.render(context)
+[Tue Feb 28 18:17:02.385302 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385306 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385310 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385314 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385319 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385323 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385327 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 208, in render
+[Tue Feb 28 18:17:02.385331 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return template.render(context)
+[Tue Feb 28 18:17:02.385334 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 177, in render
+[Tue Feb 28 18:17:02.385338 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self._render(context)
+[Tue Feb 28 18:17:02.385342 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+[Tue Feb 28 18:17:02.385346 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.nodelist.render(context)
+[Tue Feb 28 18:17:02.385350 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385357 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385361 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385365 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385369 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385373 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385377 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+[Tue Feb 28 18:17:02.385381 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return nodelist.render(context)
+[Tue Feb 28 18:17:02.385384 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+[Tue Feb 28 18:17:02.385388 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385392 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Tue Feb 28 18:17:02.385396 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Tue Feb 28 18:17:02.385400 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385404 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385408 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+[Tue Feb 28 18:17:02.385412 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     nodelist.append(node.render_annotated(context))
+[Tue Feb 28 18:17:02.385416 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+[Tue Feb 28 18:17:02.385420 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return self.render(context)
+[Tue Feb 28 18:17:02.385424 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 1064, in render
+[Tue Feb 28 18:17:02.385428 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     output = self.filter_expression.resolve(context)
+[Tue Feb 28 18:17:02.385432 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+[Tue Feb 28 18:17:02.385440 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     obj = self.var.resolve(context)
+[Tue Feb 28 18:17:02.385444 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+[Tue Feb 28 18:17:02.385448 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     value = self._resolve_lookup(context)
+[Tue Feb 28 18:17:02.385452 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/template/base.py", line 914, in _resolve_lookup
+[Tue Feb 28 18:17:02.385456 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     current = current()
+[Tue Feb 28 18:17:02.385460 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/hairbeauty/main/models.py", line 228, in get_absolute_url
+[Tue Feb 28 18:17:02.385464 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return reverse('testimonial_item', kwargs={'slug': self.slug})
+[Tue Feb 28 18:17:02.385468 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+[Tue Feb 28 18:17:02.385472 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+[Tue Feb 28 18:17:02.385511 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+[Tue Feb 28 18:17:02.385517 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546]     raise NoReverseMatch(msg)
+[Tue Feb 28 18:17:02.385521 2023] [wsgi:error] [pid 180824:tid 140098280154688] [remote 95.158.43.13:33546] django.urls.exceptions.NoReverseMatch: Reverse for 'testimonial_item' with keyword arguments '{'slug': ''}' not found. 1 pattern(s) tried: ['main/testimonial_item/(?P<slug>[-a-zA-Z0-9_]+)\\\\Z']
+[Tue Feb 28 18:29:08.031373 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 18:29:08.146529 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 18:29:08.146547 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 18:29:42.134361 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729] Internal Server Error: /main/testimonial_create
+[Tue Feb 28 18:29:42.134398 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729] Traceback (most recent call last):
+[Tue Feb 28 18:29:42.134403 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Feb 28 18:29:42.134408 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     response = get_response(request)
+[Tue Feb 28 18:29:42.134412 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Feb 28 18:29:42.134416 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Feb 28 18:29:42.134430 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+[Tue Feb 28 18:29:42.134435 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return self.dispatch(request, *args, **kwargs)
+[Tue Feb 28 18:29:42.134439 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+[Tue Feb 28 18:29:42.134443 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return handler(request, *args, **kwargs)
+[Tue Feb 28 18:29:42.134447 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+[Tue Feb 28 18:29:42.134451 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return super().post(request, *args, **kwargs)
+[Tue Feb 28 18:29:42.134455 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+[Tue Feb 28 18:29:42.134459 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return self.form_valid(form)
+[Tue Feb 28 18:29:42.134462 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 136, in form_valid
+[Tue Feb 28 18:29:42.134466 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return super().form_valid(form)
+[Tue Feb 28 18:29:42.134470 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+[Tue Feb 28 18:29:42.134474 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return HttpResponseRedirect(self.get_success_url())
+[Tue Feb 28 18:29:42.134478 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 125, in get_success_url
+[Tue Feb 28 18:29:42.134482 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     url = self.object.get_absolute_url()
+[Tue Feb 28 18:29:42.134486 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/hairbeauty/main/models.py", line 228, in get_absolute_url
+[Tue Feb 28 18:29:42.134490 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return reverse('testimonial_item', kwargs={'slug': self.slug})
+[Tue Feb 28 18:29:42.134494 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+[Tue Feb 28 18:29:42.134498 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+[Tue Feb 28 18:29:42.134502 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+[Tue Feb 28 18:29:42.134506 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729]     raise NoReverseMatch(msg)
+[Tue Feb 28 18:29:42.134511 2023] [wsgi:error] [pid 182423:tid 140098313725504] [remote 95.158.43.13:23729] django.urls.exceptions.NoReverseMatch: Reverse for 'testimonial_item' with keyword arguments '{'slug': ''}' not found. 1 pattern(s) tried: ['main/testimonial_item/(?P<slug>[-a-zA-Z0-9_]+)\\\\Z']
+[Tue Feb 28 18:41:47.583126 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 18:41:47.698302 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 18:41:47.698319 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 18:43:08.371949 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892] Internal Server Error: /testimonial_create
+[Tue Feb 28 18:43:08.371987 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892] Traceback (most recent call last):
+[Tue Feb 28 18:43:08.371993 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Feb 28 18:43:08.371997 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     response = get_response(request)
+[Tue Feb 28 18:43:08.372001 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Feb 28 18:43:08.372006 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Feb 28 18:43:08.372010 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+[Tue Feb 28 18:43:08.372014 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return self.dispatch(request, *args, **kwargs)
+[Tue Feb 28 18:43:08.372018 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+[Tue Feb 28 18:43:08.372035 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return handler(request, *args, **kwargs)
+[Tue Feb 28 18:43:08.372039 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+[Tue Feb 28 18:43:08.372043 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return super().post(request, *args, **kwargs)
+[Tue Feb 28 18:43:08.372047 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+[Tue Feb 28 18:43:08.372051 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return self.form_valid(form)
+[Tue Feb 28 18:43:08.372055 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 136, in form_valid
+[Tue Feb 28 18:43:08.372059 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return super().form_valid(form)
+[Tue Feb 28 18:43:08.372062 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+[Tue Feb 28 18:43:08.372075 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return HttpResponseRedirect(self.get_success_url())
+[Tue Feb 28 18:43:08.372079 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 125, in get_success_url
+[Tue Feb 28 18:43:08.372083 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     url = self.object.get_absolute_url()
+[Tue Feb 28 18:43:08.372087 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/hairbeauty/main/models.py", line 228, in get_absolute_url
+[Tue Feb 28 18:43:08.372091 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return reverse('testimonial_item', kwargs={'slug': self.slug})
+[Tue Feb 28 18:43:08.372095 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+[Tue Feb 28 18:43:08.372099 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+[Tue Feb 28 18:43:08.372103 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+[Tue Feb 28 18:43:08.372107 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892]     raise NoReverseMatch(msg)
+[Tue Feb 28 18:43:08.372111 2023] [wsgi:error] [pid 182541:tid 140098280154688] [remote 95.158.43.13:34892] django.urls.exceptions.NoReverseMatch: Reverse for 'testimonial_item' with keyword arguments '{'slug': ''}' not found. 1 pattern(s) tried: ['testimonial_item/(?P<slug>[-a-zA-Z0-9_]+)\\\\Z']
+[Tue Feb 28 18:47:05.672698 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 18:47:05.787873 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 18:47:05.787889 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 19:14:09.600733 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 19:14:12.948728 2023] [core:warn] [pid 179752:tid 140098379995008] AH00045: child process 182652 still did not exit, sending a SIGTERM
+[Tue Feb 28 19:14:14.950966 2023] [core:warn] [pid 179752:tid 140098379995008] AH00045: child process 182652 still did not exit, sending a SIGTERM
+[Tue Feb 28 19:14:16.055853 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 19:14:16.055882 2023] [core:notice] [pid 179752:tid 140098379995008] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 19:25:40.163483 2023] [mpm_event:notice] [pid 179752:tid 140098379995008] AH00491: caught SIGTERM, shutting down
+[Tue Feb 28 19:26:51.514839 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 19:26:51.514924 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 19:27:17.378649 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869] Internal Server Error: /testimonial_create
+[Tue Feb 28 19:27:17.378685 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869] Traceback (most recent call last):
+[Tue Feb 28 19:27:17.378691 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Feb 28 19:27:17.378695 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     response = get_response(request)
+[Tue Feb 28 19:27:17.378699 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Feb 28 19:27:17.378703 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Feb 28 19:27:17.378707 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+[Tue Feb 28 19:27:17.378711 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     return self.dispatch(request, *args, **kwargs)
+[Tue Feb 28 19:27:17.378715 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+[Tue Feb 28 19:27:17.378719 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     return handler(request, *args, **kwargs)
+[Tue Feb 28 19:27:17.378723 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+[Tue Feb 28 19:27:17.378727 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     return super().post(request, *args, **kwargs)
+[Tue Feb 28 19:27:17.378731 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+[Tue Feb 28 19:27:17.378735 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     return self.form_valid(form)
+[Tue Feb 28 19:27:17.378739 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 135, in form_valid
+[Tue Feb 28 19:27:17.378743 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     self.object = form.save()
+[Tue Feb 28 19:27:17.378746 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/forms/models.py", line 548, in save
+[Tue Feb 28 19:27:17.378750 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     self.instance.save()
+[Tue Feb 28 19:27:17.378754 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]   File "/home/hairbeauty/prj-hairbeauty/hairbeauty/main/models.py", line 233, in save
+[Tue Feb 28 19:27:17.378758 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869]     self.slug = slugify(self.title)
+[Tue Feb 28 19:27:17.378762 2023] [wsgi:error] [pid 182898:tid 139881907754560] [remote 95.158.43.13:28869] AttributeError: 'Testimonial' object has no attribute 'title'
+[Tue Feb 28 19:28:18.132125 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 19:28:18.247070 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 19:28:18.247089 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 19:29:52.612582 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 19:29:52.727746 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 19:29:52.727766 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 19:32:09.426707 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 19:32:09.541785 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 19:32:09.541803 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 19:33:39.102159 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373] Internal Server Error: /testimonial_create
+[Tue Feb 28 19:33:39.102194 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373] Traceback (most recent call last):
+[Tue Feb 28 19:33:39.102200 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Feb 28 19:33:39.102204 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     response = get_response(request)
+[Tue Feb 28 19:33:39.102208 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Feb 28 19:33:39.102213 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Feb 28 19:33:39.102217 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+[Tue Feb 28 19:33:39.102221 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return self.dispatch(request, *args, **kwargs)
+[Tue Feb 28 19:33:39.102225 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+[Tue Feb 28 19:33:39.102229 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return handler(request, *args, **kwargs)
+[Tue Feb 28 19:33:39.102243 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+[Tue Feb 28 19:33:39.102247 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return super().post(request, *args, **kwargs)
+[Tue Feb 28 19:33:39.102251 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+[Tue Feb 28 19:33:39.102255 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return self.form_valid(form)
+[Tue Feb 28 19:33:39.102259 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 136, in form_valid
+[Tue Feb 28 19:33:39.102263 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return super().form_valid(form)
+[Tue Feb 28 19:33:39.102266 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+[Tue Feb 28 19:33:39.102270 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return HttpResponseRedirect(self.get_success_url())
+[Tue Feb 28 19:33:39.102274 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 125, in get_success_url
+[Tue Feb 28 19:33:39.102278 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     url = self.object.get_absolute_url()
+[Tue Feb 28 19:33:39.102282 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/hairbeauty/main/models.py", line 229, in get_absolute_url
+[Tue Feb 28 19:33:39.102286 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return reverse('testimonial_item', kwargs={'slug': self.slug})
+[Tue Feb 28 19:33:39.102290 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+[Tue Feb 28 19:33:39.102294 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+[Tue Feb 28 19:33:39.102298 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]   File "/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+[Tue Feb 28 19:33:39.102302 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373]     raise NoReverseMatch(msg)
+[Tue Feb 28 19:33:39.102306 2023] [wsgi:error] [pid 183047:tid 139881907627584] [remote 95.158.43.13:4373] django.urls.exceptions.NoReverseMatch: Reverse for 'testimonial_item' with keyword arguments '{'slug': ''}' not found. 1 pattern(s) tried: ['testimonial_item/(?P<slug>[-a-zA-Z0-9_]+)\\\\Z']
+[Tue Feb 28 20:38:51.258154 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 20:38:51.373272 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 20:38:51.373292 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 20:46:29.165425 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 20:46:29.282044 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 20:46:29.282065 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 20:49:43.085736 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 20:49:43.201135 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 20:49:43.201156 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Feb 28 20:57:16.336852 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+[Tue Feb 28 20:57:16.452014 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Tue Feb 28 20:57:16.452033 2023] [core:notice] [pid 182897:tid 139882007467904] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Wed Mar 01 02:26:57.381046 2023] [wsgi:error] [pid 183612:tid 139881907627584] [remote 188.166.9.80:51912] Not Found: /api/islogged
+[Wed Mar 01 12:38:01.251306 2023] [wsgi:error] [pid 183612:tid 139881941198400] [remote 152.32.221.84:36738] Not Found: /robots.txt
+[Wed Mar 01 12:38:04.631508 2023] [wsgi:error] [pid 183612:tid 139881907627584] [remote 152.32.221.84:38956] Not Found: /sitemap.xml
+[Wed Mar 01 13:38:58.631051 2023] [wsgi:error] [pid 183612:tid 139881941198400] [remote 64.62.197.89:42777] Forbidden (CSRF cookie not set.): /
+[Wed Mar 01 14:13:33.256066 2023] [wsgi:error] [pid 183612:tid 139881907627584] [remote 167.248.133.47:44152] Not Found: /favicon.ico
+[Wed Mar 01 19:18:34.871535 2023] [mpm_event:notice] [pid 182897:tid 139882007467904] AH00494: SIGHUP received.  Attempting to restart
+(13)Permission denied: AH00072: make_sock: could not bind to address [::]:80
+(13)Permission denied: AH00072: make_sock: could not bind to address 0.0.0.0:80
+[Wed Mar 01 19:18:34.985793 2023] [mpm_event:alert] [pid 182897:tid 139882007467904] no listening sockets available, shutting down
+[Wed Mar 01 19:18:34.985800 2023] [:emerg] [pid 182897:tid 139882007467904] AH00019: Unable to open logs, exiting
+[Wed Mar 01 19:23:27.114823 2023] [core:warn] [pid 191681:tid 140062719629184] AH00098: pid file /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 01 19:23:27.115380 2023] [mpm_event:notice] [pid 191681:tid 140062719629184] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Wed Mar 01 19:23:27.115394 2023] [core:notice] [pid 191681:tid 140062719629184] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Wed Mar 01 19:24:51.774334 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 95.158.43.9:1422] _get_newsletters_form - POST!!!
+[Wed Mar 01 19:24:51.777236 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 95.158.43.9:1422] _get_newsletters_form - VALID!!!
+[Wed Mar 01 20:17:10.490887 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 185.81.157.204:54097] Not Found: /.env
+[Wed Mar 01 20:17:24.785722 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 185.81.157.204:61359] Not Found: /.env.example
+[Wed Mar 01 20:17:44.790859 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 185.81.157.204:53709] Not Found: /api/.env
+[Wed Mar 01 20:17:59.499637 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 185.81.157.204:61185] Not Found: /API/.env
+[Wed Mar 01 20:18:12.500845 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 185.81.157.204:52280] Not Found: /server/.env
+[Wed Mar 01 20:18:27.972955 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 185.81.157.204:58663] Not Found: /_profiler/phpinfo
+[Wed Mar 01 20:18:41.473250 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 185.81.157.204:64434] Not Found: /config.env
+[Wed Mar 01 20:19:05.010144 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 185.81.157.204:56940] Not Found: /backend/.env
+[Wed Mar 01 20:19:20.378879 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 185.81.157.204:64816] Not Found: /laravel/.env
+[Wed Mar 01 20:52:21.446273 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 95.158.43.9:25029] Not Found: /favicon.ico
+[Wed Mar 01 21:11:01.861619 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 95.214.235.205:43622] Not Found: /.env
+[Wed Mar 01 21:11:01.957644 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 95.214.235.205:44016] Forbidden (CSRF cookie not set.): /
+[Wed Mar 01 21:23:21.322376 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 222.136.99.20:43798] Not Found: /shell
+[Wed Mar 01 22:20:56.083166 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 185.254.196.115:49562] Not Found: /.env
+[Wed Mar 01 22:20:56.159898 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 185.254.196.115:49854] Forbidden (CSRF cookie not set.): /
+[Thu Mar 02 03:39:34.049225 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 157.230.52.11:43794] Forbidden (CSRF cookie not set.): /
+[Thu Mar 02 03:39:34.319217 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 157.230.52.11:43796] Not Found: /.env
+[Thu Mar 02 05:32:40.066698 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 167.94.145.58:47840] Not Found: /favicon.ico
+[Thu Mar 02 05:57:04.788469 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 95.214.235.205:47996] Not Found: /.env
+[Thu Mar 02 05:57:05.026895 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 95.214.235.205:48510] Forbidden (CSRF cookie not set.): /
+[Thu Mar 02 06:45:25.704665 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 75.126.248.120:30208] Not Found: /api/v0/id
+[Thu Mar 02 06:49:02.972816 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 162.243.150.9:51442] Not Found: /druid/index.html
+[Thu Mar 02 07:11:00.474028 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 64.62.197.167:32109] Not Found: /favicon.ico
+[Thu Mar 02 07:12:16.181979 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 64.62.197.171:62431] Not Found: /geoserver/web/
+[Thu Mar 02 08:19:54.897227 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 143.244.50.172:48870] Not Found: /config/getuser
+[Thu Mar 02 09:29:40.900294 2023] [wsgi:error] [pid 191682:tid 140062619592256] [remote 183.234.181.14:49592] Not Found: /shell
+[Thu Mar 02 09:42:46.641530 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 195.49.149.46:41154] _get_newsletters_form - POST!!!
+[Thu Mar 02 09:42:46.641852 2023] [wsgi:error] [pid 191682:tid 140062653163072] [remote 195.49.149.46:41154] _get_newsletters_form - VALID!!!
+[Thu Mar 02 09:50:34.070933 2023] [mpm_event:notice] [pid 191681:tid 140062719629184] AH00494: SIGHUP received.  Attempting to restart
+[Thu Mar 02 09:50:34.185915 2023] [mpm_event:notice] [pid 191681:tid 140062719629184] AH00489: Apache/2.4.54 (Unix) mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Thu Mar 02 09:50:34.185932 2023] [core:notice] [pid 191681:tid 140062719629184] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Mar 02 10:05:56.323394 2023] [wsgi:error] [pid 196996:tid 140062653179456] [remote 146.190.119.114:33344] Not Found: /aaa9
+[Thu Mar 02 10:05:56.885459 2023] [wsgi:error] [pid 196996:tid 140062619608640] [remote 146.190.119.114:33356] Not Found: /aab8
+[Thu Mar 02 10:35:07.792966 2023] [wsgi:error] [pid 196996:tid 140062653179456] [remote 43.154.141.71:55370] Not Found: /Core/Skin/Login.aspx
+[Thu Mar 02 11:56:22.305518 2023] [wsgi:error] [pid 196996:tid 140062619608640] [remote 43.154.141.71:45416] Not Found: /Core/Skin/Login.aspx
+[Thu Mar 02 12:16:12.553412 2023] [wsgi:error] [pid 196996:tid 140062653179456] [remote 135.125.246.110:41670] Forbidden (CSRF cookie not set.): /
+[Thu Mar 02 12:16:12.580283 2023] [wsgi:error] [pid 196996:tid 140062619608640] [remote 135.125.246.110:41692] Not Found: /.env
+[Thu Mar 02 12:18:44.557547 2023] [wsgi:error] [pid 196996:tid 140062619608640] [remote 95.214.235.205:49436] Not Found: /.env
+[Thu Mar 02 12:18:44.715765 2023] [wsgi:error] [pid 196996:tid 140062653179456] [remote 95.214.235.205:51024] Forbidden (CSRF cookie not set.): /

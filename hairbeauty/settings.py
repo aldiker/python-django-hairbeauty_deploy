@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-xe!39u(vs*#gu@1p4!loy7=*2d=_v=3@6+0%ek7u6e#jq-_%o@
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+#DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     'ckeditor',
     'ckeditor_uploader',
+    'mod_wsgi.server',
 ]
 
 MIDDLEWARE = [
@@ -117,8 +119,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-# LANGUAGE_CODE = 'ru'
+#LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
 
 TIME_ZONE = 'UTC'
 
@@ -132,7 +134,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIR = [
     os.path.join(BASE_DIR, 'main/static'),
     os.path.join(BASE_DIR, 'hairbeauty/static'),

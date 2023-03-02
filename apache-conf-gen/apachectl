@@ -1,0 +1,106 @@
+#!/usr/bin/bash
+
+# ['manage.py', 'runmodwsgi', '--working-directory', '.', '--url-alias', '/static', '/staticfiles', '--url-alias', '/media', '/media', '--setup-only', '--port', '8000', '--server-root', 'apache-conf-gen']
+
+HTTPD="/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/mod_wsgi_packages/httpd/bin/httpd"
+HTTPD_ARGS="-f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/httpd.conf -DMOD_WSGI_KEEP_ALIVE -DMOD_WSGI_MPM_ENABLE_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_WORKER_MODULE -DMOD_WSGI_MPM_EXISTS_PREFORK_MODULE"
+
+HTTPD_COMMAND="$HTTPD $HTTPD_ARGS"
+
+MOD_WSGI_MODULES_DIRECTORY="/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/mod_wsgi_packages/httpd/modules"
+export MOD_WSGI_MODULES_DIRECTORY
+
+SHLIBPATH="/home/hairbeauty/prj-hairbeauty/venv/lib/python3.10/site-packages/mod_wsgi_packages/httpd/lib"
+
+if [ "x$SHLIBPATH" != "x" ]; then
+    LD_LIBRARY_PATH="$SHLIBPATH:$LD_LIBRARY_PATH"
+    export LD_LIBRARY_PATH
+fi
+
+MOD_WSGI_SERVER_ROOT="/home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen"
+
+export MOD_WSGI_SERVER_ROOT
+
+MOD_WSGI_LISTENER_HOST="localhost"
+
+export MOD_WSGI_LISTENER_HOST
+
+MOD_WSGI_HTTP_PORT="8000"
+MOD_WSGI_HTTPS_PORT="None"
+
+export MOD_WSGI_HTTP_PORT
+export MOD_WSGI_HTTPS_PORT
+
+WSGI_RUN_USER="${WSGI_RUN_USER:-hairbeauty}"
+WSGI_RUN_GROUP="${WSGI_RUN_GROUP:-hairbeauty}"
+
+MOD_WSGI_USER="${MOD_WSGI_USER:-${WSGI_RUN_USER}}"
+MOD_WSGI_GROUP="${MOD_WSGI_GROUP:-${WSGI_RUN_GROUP}}"
+
+export MOD_WSGI_USER
+export MOD_WSGI_GROUP
+
+if [ `id -u` = "0" -a ${MOD_WSGI_USER} = "root" ]; then
+    cat << EOF
+
+WARNING: When running as the 'root' user, it is required that the options
+'--user' and '--group' be specified to mod_wsgi-express. These should
+define a non 'root' user and group under which the Apache child worker
+processes and mod_wsgi daemon processes should be run. Failure to specify
+these options will result in Apache and/or the mod_wsgi daemon processes
+failing to start. See the mod_wsgi-express documentation for further
+information on this restriction.
+
+EOF
+
+fi
+
+MOD_WSGI_WORKING_DIRECTORY="/home/hairbeauty/prj-hairbeauty/hairbeauty"
+
+export MOD_WSGI_WORKING_DIRECTORY
+
+LANG='en_US.UTF-8'
+LC_ALL='en_US.UTF-8'
+
+export LANG
+export LC_ALL
+
+ACMD="$1"
+ARGV="$@"
+
+if test -f /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/envvars; then
+    . /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/envvars
+fi
+
+STATUSURL="http://localhost:8000/server-status"
+
+if [ "x$ARGV" = "x" ]; then
+    ARGV="-h"
+fi
+
+GDB="gdb"
+ENABLE_GDB="False"
+
+PROCESS_NAME="httpd (mod_wsgi-express)  "
+
+cd $MOD_WSGI_WORKING_DIRECTORY
+
+case $ACMD in
+start|stop|restart|graceful|graceful-stop)
+    if [ "x$ENABLE_GDB" != "xTrue" ]; then
+        exec -a "$PROCESS_NAME" $HTTPD_COMMAND -k $ARGV
+    else
+        echo "run $HTTPD_ARGS -k $ARGV" > /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/gdb.cmds
+        gdb -x /home/hairbeauty/prj-hairbeauty/hairbeauty/apache-conf-gen/gdb.cmds $HTTPD
+    fi
+    ;;
+configtest)
+    exec $HTTPD_COMMAND -t
+    ;;
+status)
+    exec /home/hairbeauty/prj-hairbeauty/venv/bin/python3 -m webbrowser -t $STATUSURL
+    ;;
+*)
+    exec $HTTPD_COMMAND $ARGV
+esac
+

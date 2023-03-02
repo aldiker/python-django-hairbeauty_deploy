@@ -9,7 +9,7 @@ class NewslettersForm(forms.ModelForm):
         widgets = {
             'email': forms.EmailInput(attrs={'class': 'form-control border-light',
                                              'style': 'padding: 25px;',
-                                             'placeholder': 'Your Email',
+                                             'placeholder': 'Ваш Email',
                                              })
         }
 
@@ -26,7 +26,7 @@ class OfferBookingForm(forms.ModelForm):
                                             }),
             'BookingInfo': forms.TextInput(attrs={'class': 'form-control p-4',
                                                   'style': 'height: 60px; width: 500px;',
-                                                  'placeholder': 'Доп. информация',
+                                                  'placeholder': 'Доп. інформація',
                                                   }),
         }
 
@@ -36,7 +36,7 @@ class ContactForm(forms.Form):
                                widget=forms.TextInput(attrs={
                                    'class': 'control-group form-control bg-transparent p-4',
                                    'id': 'name',
-                                   'placeholder': 'Your name',
+                                   'placeholder': "Ваше ім'я",
                                    'required': 'required',
                                    'data-validation-required-message': 'Please enter your name'
                                }))
@@ -52,7 +52,7 @@ class ContactForm(forms.Form):
                               widget=forms.TextInput(attrs={
                                   'class': 'control-group form-control bg-transparent p-4',
                                   'id': 'subject',
-                                  'placeholder': 'Subject',
+                                  'placeholder': 'Тема',
                                   'required': 'required',
                                   'data-validation-required-message': 'Please enter a subject'
                               }))
@@ -61,7 +61,7 @@ class ContactForm(forms.Form):
                                   'class': 'control-group form-control bg-transparent py-3 px-4',
                                   'rows': '5',
                                   'id': 'message',
-                                  'placeholder': 'Message',
+                                  'placeholder': 'Повідомлення',
                                   'required': 'required',
                                   'data-validation-required-message': 'Please enter your message'
                               }))
@@ -84,7 +84,7 @@ class ReservationForm(forms.ModelForm):
         widgets = {
             'name': forms.TextInput(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4',
-                       'placeholder': 'Имя',
+                       'placeholder': "Ім'я",
                        'style': 'color:  #eceff1;',
                        }
                 ),
@@ -102,19 +102,19 @@ class ReservationForm(forms.ModelForm):
                 ),
             'date': forms.DateInput(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4 datetimepicker-input',
-                       'placeholder': 'Дата в виде: DD.MM.YYYY',
+                       'placeholder': 'Дата у вигляді: DD.MM.YYYY',
                        'style': 'color:  #eceff1;',
                        }
                 ),
             'time': forms.DateInput(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4 datetimepicker-input',
-                       'placeholder': 'Время в виде: 15:00',
+                       'placeholder': 'Час у вигляді: 15:00',
                        'style': 'color:  #eceff1;',
                        }
                 ),
             'comment': forms.Textarea(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4',
-                       'placeholder': 'Ваш комментарий',
+                       'placeholder': 'Ваш коментар',
                        'style': 'color:  #eceff1;',
                        'rows': '3',
                        }
@@ -128,7 +128,7 @@ class TestimonialForm(forms.ModelForm):
 
     class Meta:
         model = Testimonial
-        fields = ['name', 'photo', 'profession', 'comment', ]
+        fields = ['name', 'photo', 'profession', 'comment', ] #'slug', ]
         labels = {
             'name': '',
             'photo': 'Ваше фото',
@@ -139,17 +139,17 @@ class TestimonialForm(forms.ModelForm):
         widgets = {
             'name': forms.TextInput(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4',
-                       'placeholder': 'Ваше имя',
+                       'placeholder': "Ваше ім'я",
                        }
                 ),
             'profession': forms.TextInput(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4',
-                       'placeholder': 'Ваша профессия',
+                       'placeholder': 'Ваша професія',
                        }
                 ),
             'comment': forms.Textarea(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4',
-                       'placeholder': 'Ваш отзыв',
+                       'placeholder': 'Ваш відгук',
                        'rows': '5',
                        }
                 ),

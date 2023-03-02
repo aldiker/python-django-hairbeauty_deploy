@@ -12,6 +12,6 @@ urlpatterns = [
     path('contact/', contact, name='contact'),
     path('about_lean_more/<str:story_vision>/', about_lean_more, name='about_lean_more'),
 
-    path('main/testimonial_item/<slug:slug>', TestimonialDetail.as_view(), name='testimonial_item'),
-    path('main/testimonial_create', TestimonialCreate.as_view(), name='testimonial_create'),
+    path('testimonial_item/<slug:slug>', TestimonialDetail.as_view(), name='testimonial_item'),
+    path('testimonial_create', TestimonialCreate.as_view(), name='testimonial_create'),
 ]

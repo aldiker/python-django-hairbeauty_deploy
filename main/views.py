@@ -11,7 +11,7 @@ from .templatetags.main_tags import get_offer
 
 
 def page404(request, exception):
-    return HttpResponseNotFound('<h1>Такой страница не существует</h1>')
+    return HttpResponseNotFound('<h1>Такої сторінки не існує</h1>')
 
 
 def menu(request):
@@ -47,13 +47,13 @@ def _get_reservation_form(request, form_cls, prefix):
                 new_res.number_of_reservation = 1
             new_res.save()
             messages.success(request,
-                             'Ваша заявка принята. Мы Вам обязательно перезвоним!',
+                             "Ваша заявка прийнята. Ми Вам обов'язково передзвонимо!",
                              extra_tags='_reservation')
         else:
             print('_get_reservation_form - NOT VALID !!!')
             print(form.errors)
             messages.error(request,
-                           'Форма заполнена неверно. Исправьте пожалуйста.',
+                           'Форма заповнена не правильно. Виправте будь ласка.',
                            extra_tags='_reservation')
     else:
         form = form_cls()
@@ -71,13 +71,13 @@ def _get_offerbooking_form(request, form_cls, prefix):
             print('_get_offerbooking_form - VALID!!!')
             form.save()
             messages.success(request,
-                             'Ваша заявка принята. Мы Вам обязательно перезвоним!',
+                             "Ваша заявка прийнята. Ми Вам обов'язково передзвонимо!",
                              extra_tags='_offerbooking')
         else:
             print('_get_offerbooking_form - NOT VALID !!!')
             print(form.errors)
             messages.error(request,
-                           'Форма заполнена неверно. Исправьте пожалуйста.',
+                           'Форма заповнена не правильно. Виправте будь ласка.',
                            extra_tags='_offerbooking')
     else:
         form = form_cls(initial={'offer': get_offer()})
@@ -95,7 +95,7 @@ def _get_newsletters_form(request, form_cls, prefix):
             print('_get_newsletters_form - VALID!!!')
             form.save()
             messages.success(request,
-                             'Спасибо. Мы Вас запомнили!',
+                             "Дякую. Ми Вас запам'ятали!",
                              extra_tags='_newsletters')
         else:
             print('_get_newsletters_form - NOT VALID !!!')
@@ -118,7 +118,8 @@ def index(request):
 
     carousel = Carousel.objects.all()
     footer = Footer.objects.all().first()
-    testimonial_items = Testimonial.objects.all()
+    #testimonial_items = Testimonial.objects.all()
+    testimonial_items = Testimonial.objects.filter(is_published=True)
 
     context = {
         'carousel': carousel,
@@ -132,7 +133,7 @@ def index(request):
 
 
 def about(request):
-    title = 'About Us'
+    title = 'Про нас'
 
     context = {
         'title': title,
@@ -143,9 +144,9 @@ def about(request):
 def about_lean_more(request, story_vision):
 
     if story_vision == 'story':
-        title = 'About Our Story'
+        title = 'Моя історія'
     elif story_vision == 'vision':
-        title = 'About Our Vision'
+        title = 'Моє бачення'
     else:
         raise Http404()
 
@@ -157,7 +158,7 @@ def about_lean_more(request, story_vision):
 
 
 def service(request):
-    title = 'Services'
+    title = 'Послуги'
 
     context = {
         'title': title,
@@ -168,7 +169,7 @@ def service(request):
 def offer(request):
 
     offerbooking_form = _get_offerbooking_form(request, OfferBookingForm, 'offerbooking_form_submit')
-    title = 'Акции'
+    title = 'Акції'
 
     context = {
         'title': title,
@@ -180,7 +181,7 @@ def offer(request):
 def reservation(request):
 
     reservation_form = _get_reservation_form(request, ReservationForm, 'reservation_form_submit')
-    title = 'Бронирование'
+    title = 'Бронювання'
 
     context = {
         'title': title,
@@ -190,7 +191,7 @@ def reservation(request):
 
 
 def contact(request):
-    title = 'Contact'
+    title = 'Контакти'
 
     if request.method == 'POST':
         form = ContactForm(request.POST)
@@ -207,19 +208,19 @@ def contact(request):
                                    )
                 if result:
                     print('Письмо успешно отправлено')
-                    messages.success(request, 'Письмо успешно отправлено')
+                    messages.success(request, 'Відправка успішна')
                     return redirect('contact')
                 else:
                     print('Не получилось отправить письмо')
-                    messages.error(request, 'Не получилось отправить письмо')
+                    messages.error(request, 'Не вдалося відправити лист')
 
             except Exception as z:
                 print('Не получилось отправить письмо: ', z)
-                messages.error(request, 'Не получилось отправить письмо')
+                messages.error(request, 'Не вдалося відправити лист')
 
         else:
             print('Данные формы не верны')
-            messages.error(request, 'Данные формы не верны')
+            messages.error(request, 'Не вистачає інформації для відправки')
     else:
         form = ContactForm()
 
@@ -237,7 +238,7 @@ class TestimonialList(ListView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(TestimonialList, self).get_context_data(**kwargs)
-        context['title'] = 'Отзывы'
+        context['title'] = 'Відгуки'
         return context
 
     def get_queryset(self):
@@ -252,7 +253,7 @@ class TestimonialDetail(DetailView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(TestimonialDetail, self).get_context_data(**kwargs)
-        context['title'] = 'Отзыв'
+        context['title'] = 'Відгук'
         return context
 
 
@@ -262,5 +263,5 @@ class TestimonialCreate(CreateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(TestimonialCreate, self).get_context_data(**kwargs)
-        context['title'] = 'Добавить отзыв'
+        context['title'] = 'Додати відгук'
         return context
