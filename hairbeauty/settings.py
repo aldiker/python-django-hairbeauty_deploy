@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     'ckeditor',
     'ckeditor_uploader',
-    'mod_wsgi.server',
+    # 'mod_wsgi.server',
 ]
 
 MIDDLEWARE = [

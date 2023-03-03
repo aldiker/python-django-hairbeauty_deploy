@@ -101,12 +101,13 @@ class ReservationForm(forms.ModelForm):
                        }
                 ),
             'date': forms.DateInput(
-                attrs={'class': 'form-group form-control bg-transparent border-primary p-4 datetimepicker-input',
+                attrs={'class': 'form-group form-control bg-transparent border-primary p-4 datetimepicker',
                        'placeholder': 'Дата у вигляді: DD.MM.YYYY',
                        'style': 'color:  #eceff1;',
-                       }
+                       },
+                format='%d.%m.%Y'
                 ),
-            'time': forms.DateInput(
+            'time': forms.TimeInput(
                 attrs={'class': 'form-group form-control bg-transparent border-primary p-4 datetimepicker-input',
                        'placeholder': 'Час у вигляді: 15:00',
                        'style': 'color:  #eceff1;',
