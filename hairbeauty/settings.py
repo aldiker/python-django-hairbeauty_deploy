@@ -221,8 +221,8 @@ CKEDITOR_CONFIGS = {
 
 EMAIL_HOST = 'smtp.ukr.net'
 EMAIL_PORT = 465    # 2525
-EMAIL_HOST_USER = 'diker_test@ukr.net'
-EMAIL_HOST_PASSWORD = 'ntN9V5OvbpZkYDbA'
+EMAIL_HOST_USER = 'diker_t...@ukr.net'
+EMAIL_HOST_PASSWORD = '...'
 EMAIL_USE_TSL = False
 EMAIL_USE_SSL = True
 
